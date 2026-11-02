@@ -1,0 +1,142 @@
+nav{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 60px;
+    max-height: 70px;
+    align-self: flex-end;
+    
+  
+}
+body{
+    font-family:sans-serif;
+
+}
+.navlinks{
+    display: flex;
+    gap: 250px;
+   padding-right:500px;
+   
+}
+
+
+.logocontainer{
+    display: flex;
+}
+.naam{
+    position: absolute;
+    top:30px
+    
+}
+.junText{
+    position: absolute;
+    top:70px;
+}
+.box{
+    position: absolute;
+    Width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 50px;
+    background-color: #c2b4b4;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.dropdown {
+  position: relative; 
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 130%; 
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 12px;
+  min-width: 150px;
+  z-index: 100;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  color:#38b6ff;
+}
+
+
+.dropdown-menu li a {
+  padding: 8px 20px;
+  display: block;
+  color: #333;
+  font-weight: normal;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.dropdown-menu li a:hover {
+  background-color:#38b6ff;
+  color: #000000;
+}
+
+h2{
+  padding-left:300px;
+}
+h3{
+  padding-left:300px; 
+}
+.overmij{
+  margin-left:300px;
+}
+
+.skills-card {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  padding: 20px 40px;
+  max-width: 2300px;
+  margin: 40px;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.skills-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 25px;
+
+}
+
+.skills-title span {
+  color: #1793d1;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.skill-item {
+  background-color: #e0e0e0;
+  width: 100px;
+  height: 60px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
